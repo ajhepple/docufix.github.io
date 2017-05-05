@@ -1,0 +1,35 @@
+
+section.introduction {
+  padding: 150px 0;
+  position: relative;
+}
+section.introduction h2 {
+  margin-top: 0;
+  font-size: 50px;
+}
+section.introduction .badges .badge-link {
+  display: block;
+  margin-bottom: 25px;
+}
+section.introduction .badges .badge-link:last-child {
+  margin-bottom: 0;
+}
+section.introduction .badges .badge-link img {
+  height: 60px;
+}
+@media (min-width: 768px) {
+  section.introduction .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  section.introduction h2 {
+    font-size: 70px;
+  }
+}
+section.contact address {
+  font-size: x-large;
+  text-align: left;
+  padding: 50px;
+}
